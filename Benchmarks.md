@@ -1,5 +1,7 @@
 # Mubai.Snowflake Performance Benchmark Summary
 
+English | [简体中文](./Benchmarks.zh-cn.md)
+
 > Environment: Windows 11 / .NET 8.0 / BenchmarkDotNet v0.13.10
 
 ---
