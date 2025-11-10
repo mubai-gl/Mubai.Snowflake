@@ -2,10 +2,31 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <!-- NuGet info -->
+    <PackageId>Mubai.Snowflake</PackageId>
+    <Version>1.0.0</Version>
+    <Title>Mubai.Snowflake</Title>
+    <Description>Production-ready Snowflake ID generator for .NET.</Description>
+    <Authors>mubai-gl</Authors>
+    <Company>mubai-gl</Company>
+    <Copyright>© 2024 mubai-gl. All rights reserved.</Copyright>
+    <PackageTags>snowflake;id-generator;distributed-id;.net,twitter-snowflake</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <!-- Project info -->
+    <PackageProjectUrl>https://github.com/mubai-gl/Mubai.Snowflake</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>snowflake.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial release of Mubai.Snowflake, a high-performance Snowflake ID generator for .NET.</PackageReleaseNotes>
+
+    <!-- Repository info -->
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/mubai-gl/Mubai.Snowflake.git</RepositoryUrl>    
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="resources\snowflake.png" Pack="true" PackagePath="" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.10" />
   </ItemGroup>
-
 </Project>
